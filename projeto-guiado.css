@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E500C;
+    font-family: 'Monteserrat',sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+.header-menu{
+    background-color: #CAC8C8;
+    position: absolute;
+    width: 1440px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 60px;
+}
+
+.vazia{
+    background-color: #CAC8C8;
+    width: 1800px;
+    height: 150px;
+}
+
+.vagas {
+    background-color: #CAC8C8;
+    position: absolute;
+    width: 1440px;
+    height: 250px;
+    left: 0px;
+    top: 580px;
+}
+.estilo-icon{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.logo{
+    left: 626px;
+    top: 75px;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.avatar1 {
+    width: 74px;
+    height: 74px;
+    border-radius: 200px;
+    left: 148px;
+    top: 345px;
+    position: absolute;
+}
+.avatar2{
+    width: 74px;
+    height: 74px;
+    border-radius: 200px;
+    left: 148px;
+    top: 471px;
+    position: absolute;
+}
+.avatar3{
+    width: 74px;
+    height: 74px;
+    border-radius: 200px;
+    left: 148px;
+    top: 446px;
+    position: absolute;
+}
+.avatar4{
+    width: 74px;
+    height: 74px;
+    border-radius: 200px;
+    left: 148px;
+    top: 421px;
+    position: absolute;
+}
+.avatar5{
+    width: 74px;
+    height: 74px;
+    border-radius: 200px;
+    left: 148px;
+    top: 396px;
+    position: absolute;
+}
+.links {
+    color:#FFF;
+    text-decoration: none;
+}
+.nome1{
+    position: absolute;
+    width: 173px;
+    height: 13px;
+    left: 243px;
+    top: 345px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+}
+.nome2{
+    position: absolute;
+    width: 173px;
+    height: 11px;
+    left: 242px;
+    top: 471px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+}
+.nome3{
+    position: absolute;
+    width: 173px;
+    height: 13px;
+    left: 241px;
+    top: 323px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+}
+.nome4{
+    position: absolute;
+    width: 173px;
+    height: 13px;
+    left: 243px;
+    top: 345px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+}
+.nome5{
+    position: absolute;
+    width: 173px;
+    height: 13px;
+    left: 243px;
+    top: 345px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+}
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 194px;
+    left: 0px;
+    top: 830px;
+    background: #2E500C;
+}
+.lista-menu{
+    position: absolute;
+    width: 1440px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    color: #CAC8C8;
+}
+.lista-fooder{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.inicio-menu{
+    position: absolute;
+    width: 187px;
+    height: 18px;
+    left: 45px;
+    top: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.43em;
+    color: #2E500C;
+}
+.perfil-menu{
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 499px;
+    top: 22px;
+    font-size: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.34em;
+    color: #2E500C;
+}
+.vagas-menu{
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 867px;
+    top: 22px;
+    font-size: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.43em;
+    color: #2E500C;
+}
+.contatos-menu{
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 1185px;
+    top: 23px;
+    font-size: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.43em;
+    color: #2E500C;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
